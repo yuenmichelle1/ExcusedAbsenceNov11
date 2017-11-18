@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<style>
+	div {
+		background-color: #ccc;
+		height: 50px;
+		margin-bottom: 10px;
+		text-align:center;
+		justify-content: center;
+	}	
+
+	.left-float {
+		background-color: #666;
+		float:left;
+		width: 33%;
+		margin-bottom: 10px;
+		text-align: center;
+		justify-content: center;
+		color:white;
+	}
+	.right-float{
+		background-color:#666;
+		float:right;
+		width: 33%;
+		margin-bottom: 10px;
+		text-align: center;
+		justify-content: center;
+		color:white;
+
+	}
+
+	.middle{
+		background-color: #888;
+		margin-bottom:10px;
+		text-align: center;
+		justify-content: center;
+		color:white;
+	}
+
+	.clearfix{
+		clear: both;
+		height:300px;
+		background-color: #eee;
+	}
+	.aside{
+		background-color: #fff;
+		float:left;
+		width: 200px;
+		height: 150px;
+		margin-left: 30px;
+		margin-top:20px;
+		overflow: auto;
+	}
+	.inside-blue{
+		background-color:#6ea3da;
+		margin: 20px 0;
+	}
+
+
+
+
+	</style>
+	<meta charset="UTF-8">
+	<title>Float Exercise</title>
+</head>
+<body>
+	<div> #ccc</div>
+	<div class="left-float">#666</div>
+	<div class="right-float">#666</div>
+	<div class="middle">#888</div>
+	<div class="clearfix">#eee 
+		<div class="aside">#fff</div>
+		<div class="inside-blue">#6ea3da
+		</div>
+	</div>
+	<div> footer #ccc</div>
+	
+</body>
+</html>
